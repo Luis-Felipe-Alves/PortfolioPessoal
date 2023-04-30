@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&display=swap');
+
+:root{
+    --cor-de-fundo: #cce3f3;
+    --cor-da-fonte: #3E428C;
+    --cor-destaque: #D17D24;
+    --hover-color: #DEAB1B;
+    
+    --fonte-principal: "Dosis", Serif;
+    --transition-time: 0.275s ease-in-out;
+    --border-style: solid var(--cor-destaque) 0.1rem;
+    --border-radius: 2rem;
+}
+body{
+    margin: 8vh 15vh;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    color: var(--cor-da-fonte);
+    font-size: 120%;
+}
+.cabecalho{
+    margin-top: 12rem 0;
+}
+.cabecalho_all_links{
+    display: flex;
+    gap: 2.5rem;
+}
+.link{
+    font-size: 100%;
+    text-decoration: none;
+    border: var(--border-style);
+    border-radius: var(--border-radius);
+    padding: 0.25rem 2rem;
+    text-align: center; 
+    color: var(--cor-destaque);
+    transition: var(--transition-time);
+}
+.link:hover{
+    background-color: var(--hover-color);
+    color: var(--cor-de-fundo);
+    scale: 1.07;
+    border-color: var(--hover-color);
+}
+.link:active{
+    scale: 1;
+}
+
+.titulo_principal{
+    font-size: 200%;
+    margin: 2% 0;
+}
+.conteudo_principal{
+    display: flex;
+    gap: 8%;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo_principal_sessao{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 1rem 0;
+}
+.principal_paragrafos{
+    text-align: justify;
+}
+#alura_link{
+    text-decoration: none;
+    color: var(--cor-destaque);
+    transition: var(--transition-time);
+}
+#alura_link:hover{
+    text-decoration: underline;
+    color: var(--hover-color);
+}
+.foto_luis{
+    width: 25%;
+    transition: var(--transition-time);
+
+}
+.foto_luis:hover{
+    scale: 1.075;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    font-size: 100%;
+    align-items: center;
+    margin-top: 8rem;
+    border: var(--border-style);
+    border-radius: 2rem;
+    padding: 2%;
+}
+.rodape_redes{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content:end;
+}
+.redes{
+    color: var(--cor-destaque);
+    text-decoration: none;
+    font-weight: 600;    
+    transition: var(--transition-time);
+}
+.redes:hover{
+    color: var(--hover-color);
+    text-decoration: underline;
+}
