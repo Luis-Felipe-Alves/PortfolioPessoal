@@ -1,5 +1,60 @@
+/* Galaxy Fold */
+@media (max-width:280px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+    .cabecalho{
+        align-content: center;
+        margin: 3rem 1rem;
+        display: flex;
+        justify-content:center;
+    }
+    .cabecalho_all_links{
+        display: flex;  
+        justify-content:center;
+        gap: 1rem;
+        align-items: center;
+    }
+    .link{
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 0.2rem 0.75rem;
+    }
+    .conteudo_principal{
+        font-size: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0.5rem;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .conteudo_principal_sessao{
+        display: flex;
+        gap: 1rem;
+        width: 70%;
+    }
+    .titulo_principal{
+        font-size: 180%;
+        text-align: justify;
+    }
+    .foto_luis{
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+    .rodape{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 3rem auto;
+        border-radius: 1rem;
+    }
+}
+
 /* Iphone SE */
-@media (max-width: 600px){
+@media (min-width: 281px) and (max-width: 600px){
     body{
         margin: 0;
         padding: 0;
@@ -14,6 +69,7 @@
     .cabecalho_all_links{
         display: flex;  
         justify-content:center;
+        gap: 2rem;
         align-items: center;
         width: auto;
     }
@@ -48,8 +104,10 @@
         display: flex;
         justify-content: center;
         margin: 3rem auto;
+        border-radius: 1.25rem;
     }
+}
 
-
+@media (min-width: 600px) and (max-width: 900){
 
 }
