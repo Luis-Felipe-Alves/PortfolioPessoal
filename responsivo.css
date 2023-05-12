@@ -44,6 +44,23 @@
         width: 50%;
         margin-bottom: 1rem;
     }
+    .segunda_parte{
+        margin: 1.5rem 0;
+        font-size: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .titulo_segundo{
+        text-align: left;
+        font-size: 125%;
+        width: 70%;
+    }
+    .sessao_programas{
+        display: flex;
+    }
     .rodape{
         width: 80%;
         display: flex;
@@ -98,6 +115,23 @@
     .foto_luis{
         width: 50%;
         margin-bottom: 1rem;
+    }
+    .segunda_parte{
+        margin: 1.5rem 0;
+        font-size: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .titulo_segundo{
+        text-align: left;
+        font-size: 125%;
+        width: 70%;
+    }
+    .sessao_programas{
+        display: flex;
     }
     .rodape{
         width: 80%;
@@ -154,6 +188,23 @@
         width: 50%;
         margin-bottom: 1rem;
     }
+    .segunda_parte{
+        margin: 1.5rem 0;
+        font-size: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .titulo_segundo{
+        text-align: left;
+        font-size: 125%;
+        width: 70%;
+    }
+    .sessao_programas{
+        display: flex;
+    }
     .rodape{
         width: 80%;
         display: flex;
@@ -207,6 +258,23 @@
     .foto_luis{
         width: 35%;
         margin-bottom: 1rem;
+    }
+    .segunda_parte{
+        margin: 1.5rem 0;
+        font-size: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .titulo_segundo{
+        text-align: left;
+        font-size: 125%;
+        width: 70%;
+    }
+    .sessao_programas{
+        display: flex;
     }
     .rodape{
         font-size: 2rem;
@@ -262,6 +330,24 @@
     .foto_luis{
         width: 35%;
         margin-bottom: 1rem;
+    }
+    
+    .segunda_parte{
+        margin: 1.5rem 0;
+        font-size: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .titulo_segundo{
+        text-align: left;
+        font-size: 125%;
+        width: 70%;
+    }
+    .sessao_programas{
+        display: flex;
     }
     .rodape{
         font-size: 2rem;

@@ -18,7 +18,7 @@ Cor mais vibrante: HOVER
     --hover-color: #E74646;
     
     --fonte-principal: "Dosis", Serif;
-    --transition-time: 0.2s ease-in-out;
+    --transition-time: 0.3s ease-in-out;
     --border-style: solid var(--cor-destaque) 0.1rem;
     --border-radius: 2rem;
 }
@@ -54,24 +54,30 @@ body{
 }
 .link:active{
     scale: 1;
+    filter: brightness(0.25);
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+}
 .titulo_principal{
-    font-size: 200%;
+    font-size: 250%;
     margin: 2% 0;
 }
 .conteudo_principal{
     display: flex;
     gap: 8%;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 .conteudo_principal_sessao{
+    margin: 1.5rem 0;
     display: flex;
     flex-direction: column;
     width: auto;
-    gap: 1rem 0;
+    gap: 2rem;
 }
+
 .principal_paragrafos{
     text-align: justify;
 }
@@ -92,6 +98,19 @@ body{
 .foto_luis:hover{
     scale: 1.075;
 }
+
+.segunda_parte{
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+.titulo_segundo{
+    font-size: 150%;
+}
+
 .rodape{
     display: flex;
     flex-direction: column;
