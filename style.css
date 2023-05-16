@@ -1,24 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&family=Quicksand:wght@300;400;600&display=swap');
 /*
 CORES:  
 #cce3f3
 #3E428C
 #D17D24
 #DEAB1B
+
+--cor-de-fundo: #FFF3E2;
+--cor-da-fonte: #9C1F1F;
+--cor-destaque: #FA9884;
+--hover-color: #E74646;
+
 Cor mais clara: FUNDO
 Cor mais escura: FONTE
 Cor mais suave: DESTAQUE
 Cor mais vibrante: HOVER
  */
 :root{
-    --cor-de-fundo: #FFF3E2;
-    --cor-da-fonte: #9C1F1F;
-    --cor-destaque: #FA9884;
-    --hover-color: #E74646;
+    --cor-de-fundo: #F7F1E5;
+    --cor-da-fonte: #4C4B16;
+    --cor-destaque: #E7B10A;
+    --hover-color: #898121;
     
-    --fonte-principal: "Dosis", Serif;
-    --transition-time: 0.3s ease-in-out;
+    --fonte-principal: "Quicksand";
+    --transition-time: 0.3s;
     --border-style: solid var(--cor-destaque) 0.1rem;
     --border-radius: 2rem;
 }
@@ -30,7 +35,7 @@ body{
     font-size: 120%;
 }
 .cabecalho{
-    margin-top: 12rem 0;
+    padding: 1rem 0;
 }
 .cabecalho_all_links{
     display: flex;
@@ -49,7 +54,7 @@ body{
 .link:hover{
     background-color: var(--hover-color);
     color: var(--cor-de-fundo);
-    scale: 1.07;
+    scale: 1.1;
     border-color: var(--hover-color);
 }
 .link:active{
@@ -99,14 +104,6 @@ main{
     scale: 1.075;
 }
 
-.segunda_parte{
-    font-size: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
-    width: 100%;
-}
 .titulo_segundo{
     font-size: 150%;
 }
