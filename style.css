@@ -111,7 +111,7 @@ main{
     align-items: center;
     margin-top: 8rem;
     border: var(--border-style);
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 2%;
 }
 .rodape_redes{
