@@ -6,21 +6,16 @@ CORES:
 #D17D24
 #DEAB1B
 
---cor-de-fundo: #FFF3E2;
---cor-da-fonte: #9C1F1F;
---cor-destaque: #FA9884;
---hover-color: #E74646;
-
 Cor mais clara: FUNDO
 Cor mais escura: FONTE
 Cor mais suave: DESTAQUE
 Cor mais vibrante: HOVER
  */
 :root{
-    --cor-de-fundo: #F7F1E5;
-    --cor-da-fonte: #4C4B16;
-    --cor-destaque: #E7B10A;
-    --hover-color: #898121;
+    --cor-de-fundo: #FFF3E2;
+    --cor-da-fonte: #9C1F1F;
+    --cor-destaque: #FA9884;
+    --hover-color: #E74646;
     
     --fonte-principal: "Quicksand";
     --transition-time: 0.3s;
