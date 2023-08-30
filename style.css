@@ -12,10 +12,10 @@ Cor mais suave: DESTAQUE
 Cor mais vibrante: HOVER
  */
 :root{
-    --cor-de-fundo: #FFF3E2;
-    --cor-da-fonte: #9C1F1F;
-    --cor-destaque: #FA9884;
-    --hover-color: #E74646;
+    --cor-de-fundo: #2b0000;
+    --cor-da-fonte: #FCF0C8;
+    --cor-destaque: #fff587;
+    --hover-color: #a11F17;
     
     --fonte-principal: "Quicksand";
     --transition-time: 0.3s;
@@ -49,7 +49,7 @@ body{
 .link:hover{
     background-color: var(--hover-color);
     color: var(--cor-de-fundo);
-    scale: 1.1;
+    scale: 1.2;
     border-color: var(--hover-color);
 }
 .link:active{
@@ -81,12 +81,12 @@ main{
 .principal_paragrafos{
     text-align: justify;
 }
-#alura_link{
+.link-curso{
     text-decoration: none;
     color: var(--cor-destaque);
     transition: var(--transition-time);
 }
-#alura_link:hover{
+.link-curso:hover{
     text-decoration: underline;
     color: var(--hover-color);
 }
